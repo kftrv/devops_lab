@@ -1,5 +1,6 @@
 from setuptools import setup
 
+
 setup(
     name="hello",
     packages=["hello", "install"],
@@ -8,7 +9,4 @@ setup(
     author_email="viachaslau)kuftyrau@epam.com",
     description="Example of the test application"
 )
-
-
-
 
