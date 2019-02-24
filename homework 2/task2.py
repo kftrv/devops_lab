@@ -11,7 +11,7 @@ num_of_nulls = 0
 if int(a) < 0:
     a = ''.join(sorted(a, reverse=True))
     a = a[:-1]
-    a = ("-"+a)
+    a = ("-" + a)
 
 elif int(a) == 0:
     a = 0
@@ -58,4 +58,4 @@ elif int(b) == 0:
     b = 0
 else:
     b = ''.join(sorted(b, reverse=True))
-print(int(b)-int(a))
+print(int(b) - int(a))
