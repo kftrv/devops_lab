@@ -1,0 +1,18 @@
+SNAPSHOT 1 Mon Feb 25 20:43:48 2019
+CPU Usage: 14.6
+VM Usage: 3181.6875 MB
+Swap Usage 0.0 MB
+HDD I/O: sdiskio(read_count=175117, write_count=4373844, read_bytes=4736986112, write_bytes=53783412736, read_time=1989626, write_time=32802699, read_merged_count=4283, write_merged_count=1435152, busy_time=11323602)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 2 Mon Feb 25 20:43:59 2019
+CPU Usage: 23.3
+VM Usage: 3160.7265625 MB
+Swap Usage 0.0 MB
+HDD I/O: sdiskio(read_count=175117, write_count=4374139, read_bytes=4736986112, write_bytes=53786755072, read_time=1989626, write_time=32803489, read_merged_count=4283, write_merged_count=1435222, busy_time=11324146)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 3 Mon Feb 25 20:44:10 2019
+CPU Usage: 12.4
+VM Usage: 3162.296875 MB
+Swap Usage 0.0 MB
+HDD I/O: sdiskio(read_count=175117, write_count=4374431, read_bytes=4736986112, write_bytes=53788418048, read_time=1989626, write_time=32804248, read_merged_count=4283, write_merged_count=1435305, busy_time=11324584)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
