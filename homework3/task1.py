@@ -16,8 +16,8 @@ class SysMon:
         while True:
             p_time = "SNAPSHOT", self.snap, time.ctime()
             p_cpu = "\nCPU Usage:", psutil.cpu_percent(interval=interval)
-            p_vm = "\nVM Usage:", psutil.virtual_memory().used / (1024 * 1024), "MB"
-            p_swap = "\nSwap Usage", psutil.swap_memory().used / (1024 * 1024), "MB"
+            p_vm = "\nVM Usage:", psutil.virtual_memory().used 
+            p_swap = "\nSwap Usage", psutil.swap_memory().used
             p_hdd = "\nHDD I/O:", psutil.disk_io_counters()
             p_net = "\nNet stat:", psutil.net_if_stats(), "\n"
             p_out = [p_time, p_cpu, p_vm, p_swap, p_hdd, p_net]
