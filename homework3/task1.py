@@ -1,11 +1,8 @@
 import psutil
 import configparser
 import time
-from crontab import CronTab
 
 
-task_cron = CronTab(user=True)
-job = task_cron.new(command='python /home/student/LAB-TASKS/Python/HW/homework3/devops_lab/homework3/task1')
 config = configparser.ConfigParser()
 config.read("config.ini")
 interval = int(config["cpu"]["interval"])
@@ -14,9 +11,6 @@ outfile = config["out"]["output_file"]
 
 class SysMon:
     snap = 1
-
-    # def __init__(self):
-    #     self.snap = 0
 
     def get_info(self):
         while True:
@@ -36,4 +30,3 @@ class SysMon:
 
 Mon = SysMon()
 Mon.get_info()
-
