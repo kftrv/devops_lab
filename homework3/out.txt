@@ -16,3 +16,21 @@ VM Usage: 3162.296875 MB
 Swap Usage 0.0 MB
 HDD I/O: sdiskio(read_count=175117, write_count=4374431, read_bytes=4736986112, write_bytes=53788418048, read_time=1989626, write_time=32804248, read_merged_count=4283, write_merged_count=1435305, busy_time=11324584)
 Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 1 Wed Feb 27 09:18:44 2019
+CPU Usage: 31.7
+VM Usage: 3812712448
+Swap Usage 0
+HDD I/O: sdiskio(read_count=176289, write_count=6091548, read_bytes=4767896576, write_bytes=71236013056, read_time=1996385, write_time=40622247, read_merged_count=4315, write_merged_count=1915986, busy_time=16074893)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 2 Wed Feb 27 09:18:55 2019
+CPU Usage: 23.1
+VM Usage: 3783258112
+Swap Usage 0
+HDD I/O: sdiskio(read_count=176289, write_count=6091729, read_bytes=4767896576, write_bytes=71237528576, read_time=1996385, write_time=40623016, read_merged_count=4315, write_merged_count=1916081, busy_time=16075509)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 3 Wed Feb 27 09:19:06 2019
+CPU Usage: 15.3
+VM Usage: 3791953920
+Swap Usage 0
+HDD I/O: sdiskio(read_count=176289, write_count=6091955, read_bytes=4767896576, write_bytes=71239281664, read_time=1996385, write_time=40623524, read_merged_count=4315, write_merged_count=1916250, busy_time=16075899)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 

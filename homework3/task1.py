@@ -1,8 +1,12 @@
 import psutil
 import configparser
 import time
+from crontab import CronTab
 
-
+cron = CronTab(user=True)
+task = cron.new(command='python task1.py')
+task.every_reboot()
+cron.write()
 config = configparser.ConfigParser()
 config.read("config.ini")
 interval = int(config["cpu"]["interval"])
