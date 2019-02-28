@@ -11,7 +11,7 @@ parser.add_argument('--merged', '-m', action="store_true", help="Show merge stat
 parser.add_argument('--commits', '-c', action="store_true", help="Show commits count")
 parser.add_argument('--reponame', '-r', action="store_true", help="Show name of repo")
 parser.add_argument('--ownerurl', '-o', action="store_true", help="Show owner URL")
-parser.add_argument('--version', '-v', action="version", help="Show version", version="%(prog)s 1.0")
+parser.add_argument('--version', '-v', action="version", help="Show ver", version="%(prog)s 1.0")
 args = parser.parse_args()
 passwd = getpass.getpass()
 username = args.username
