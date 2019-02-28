@@ -1,12 +1,14 @@
 import psutil
 import configparser
 import time
+import json
 
 
 config = configparser.ConfigParser()
 config.read("config.ini")
 interval = int(config["cpu"]["interval"])
 outfile = config["out"]["output_file"]
+outformat = config["out"]["format"]
 
 
 class SysMon:
@@ -14,16 +16,21 @@ class SysMon:
 
     def get_info(self):
         while True:
-            p_time = "SNAPSHOT", self.snap, time.ctime()
-            p_cpu = "\nCPU Usage:", psutil.cpu_percent(interval=interval)
-            p_vm = "\nVM Usage:", psutil.virtual_memory().used
-            p_swap = "\nSwap Usage", psutil.swap_memory().used
-            p_hdd = "\nHDD I/O:", psutil.disk_io_counters()
-            p_net = "\nNet stat:", psutil.net_if_stats(), "\n"
-            p_out = [p_time, p_cpu, p_vm, p_swap, p_hdd, p_net]
-            with open(outfile, "a") as file:
-                for i in range(len(p_out)):
-                    file.write(' '.join(map(str, p_out[i])))
+            p_out = {}
+            p_out["SNAPSHOT:"] = self.snap
+            p_out["SNAPTIME:"] = time.ctime()
+            p_out["CPU Usage:"] = psutil.cpu_percent(interval=interval)
+            p_out["VM Usage:"] = psutil.virtual_memory().used
+            p_out["Swap Usage"] = psutil.swap_memory().used
+            p_out["HDD I/O:"] = psutil.disk_io_counters()
+            p_out["Net stat:"] = psutil.net_if_stats()
+            # p_out = [p_time, p_cpu, p_vm, p_swap, p_hdd, p_net]
+            if outformat == 'json':
+                with open(outfile, "a") as file:
+                    json.dump(p_out, file, indent=4)
+            else:
+                with open(outfile, "a") as file:
+                    file.write(str(p_out) + "\n")
             self.snap += 1
             time.sleep(int(config["wait"]["sleep"]))
 
