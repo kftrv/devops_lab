@@ -1,12 +1,8 @@
 import psutil
 import configparser
 import time
-from crontab import CronTab
 
-cron = CronTab(user=True)
-task = cron.new(command='python task1.py')
-task.every_reboot()
-cron.write()
+
 config = configparser.ConfigParser()
 config.read("config.ini")
 interval = int(config["cpu"]["interval"])
@@ -29,7 +25,7 @@ class SysMon:
                 for i in range(len(p_out)):
                     file.write(' '.join(map(str, p_out[i])))
             self.snap += 1
-            time.sleep(10)
+            time.sleep(int(config["wait"]["sleep"]))
 
 
 Mon = SysMon()

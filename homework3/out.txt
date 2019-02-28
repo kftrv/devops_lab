@@ -34,3 +34,39 @@ VM Usage: 3791953920
 Swap Usage 0
 HDD I/O: sdiskio(read_count=176289, write_count=6091955, read_bytes=4767896576, write_bytes=71239281664, read_time=1996385, write_time=40623524, read_merged_count=4315, write_merged_count=1916250, busy_time=16075899)
 Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 1 Thu Feb 28 16:13:28 2019
+CPU Usage: 62.5
+VM Usage: 3244761088
+Swap Usage 1318912
+HDD I/O: sdiskio(read_count=208503, write_count=7801755, read_bytes=5711010816, write_bytes=94203064320, read_time=2377584, write_time=61817444, read_merged_count=4488, write_merged_count=2460251, busy_time=20842623)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'vethc327d6d': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10000, mtu=1500), 'docker0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 1 Thu Feb 28 16:13:49 2019
+CPU Usage: 30.4
+VM Usage: 3272167424
+Swap Usage 1318912
+HDD I/O: sdiskio(read_count=208503, write_count=7802564, read_bytes=5711010816, write_bytes=94215122944, read_time=2377584, write_time=61821283, read_merged_count=4488, write_merged_count=2460541, busy_time=20845227)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'vethc327d6d': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10000, mtu=1500), 'docker0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 2 Thu Feb 28 16:14:00 2019
+CPU Usage: 11.0
+VM Usage: 3265179648
+Swap Usage 1318912
+HDD I/O: sdiskio(read_count=208503, write_count=7802660, read_bytes=5711010816, write_bytes=94215966720, read_time=2377584, write_time=61821383, read_merged_count=4488, write_merged_count=2460579, busy_time=20845327)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'vethc327d6d': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10000, mtu=1500), 'docker0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 3 Thu Feb 28 16:14:11 2019
+CPU Usage: 13.4
+VM Usage: 3268624384
+Swap Usage 1318912
+HDD I/O: sdiskio(read_count=208503, write_count=7803346, read_bytes=5711010816, write_bytes=94248996864, read_time=2377584, write_time=61839802, read_merged_count=4488, write_merged_count=2460702, busy_time=20846443)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'vethc327d6d': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10000, mtu=1500), 'docker0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 4 Thu Feb 28 16:14:22 2019
+CPU Usage: 9.9
+VM Usage: 3279192064
+Swap Usage 1318912
+HDD I/O: sdiskio(read_count=208503, write_count=7803435, read_bytes=5711010816, write_bytes=94249734144, read_time=2377584, write_time=61840008, read_merged_count=4488, write_merged_count=2460752, busy_time=20846649)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'vethc327d6d': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10000, mtu=1500), 'docker0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
+SNAPSHOT 1 Thu Feb 28 16:18:39 2019
+CPU Usage: 25.8
+VM Usage: 3246641152
+Swap Usage 1318912
+HDD I/O: sdiskio(read_count=208543, write_count=7807816, read_bytes=5712206848, write_bytes=94383636480, read_time=2377949, write_time=61907585, read_merged_count=4488, write_merged_count=2462263, busy_time=20854425)
+Net stat: {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'vethc327d6d': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10000, mtu=1500), 'docker0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)} 
